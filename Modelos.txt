@@ -1,0 +1,7 @@
+Marca: Ferrari | Denominacion: Testarossa | Tipo de Vehiculo: Auto | Cantidad: 50 -
+Marca: Bugatti | Denominacion: Centodeci | Tipo de Vehiculo: Auto | Cantidad: 10 -
+Marca: Lamborghini | Denominacion: LM002 | Tipo de Vehiculo: SUV | Cantidad: 25 -
+Marca: Lamborghini | Denominacion: Urus | Tipo de Vehiculo: SUV | Cantidad: 120 -
+Marca: Rolls Royce | Denominacion: Phantom | Tipo de Vehiculo: Auto | Cantidad: 30 -
+Marca: Bugatti | Denominacion: Veyron | Tipo de Vehiculo: auto | Cantidad: 16 -
+Marca: Chevrolet | Denominacion: Corvette | Tipo de Vehiculo: Auto | Cantidad: 150 -

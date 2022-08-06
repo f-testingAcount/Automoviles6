@@ -73,7 +73,7 @@ public class Ejecutable {
                                0 - Salir
                                """);
 
-        opcion = Integer.parseInt(input.nextLine());
+        opcion = input.nextInt();
 
             switch (opcion) { //Iniciar archivos (Marcas, Modelos, Caracteristicas Tecnicas, Distribuidores, Agencias).
                 case 1 ->
@@ -94,7 +94,7 @@ public class Ejecutable {
                                        10 - Mecanicos.txt
                                        11 - Taller.txt
                                         """);
-                    opcion = Integer.parseInt(input.nextLine());
+                    opcion = input.nextInt();
                     switch (opcion) {
                         case 1 -> { //Agregar marca
                             String nombreArchivo = "Marcas.txt";
@@ -338,7 +338,7 @@ public class Ejecutable {
                                       10 - Mecanicos.txt
                                       11 - Taller.txt
                                        """);
-                    opcion = Integer.parseInt(input.nextLine());
+                    opcion = input.nextInt();
                     switch(opcion){
                         case 1 -> accion.listarArchivo(ARCHIVO_MARCAS, marca);
                         case 2 -> accion.listarArchivo(ARCHIVO_MODELOS, modelo);
@@ -371,7 +371,7 @@ public class Ejecutable {
                                       10 - Buscar Mecanico
                                       11 - Buscar Taller 
                                        """);
-                    opcion = Integer.parseInt(input.nextLine());
+                    opcion = input.nextInt();
                     
                     switch(opcion){
                         case 1 -> {
@@ -476,7 +476,7 @@ public class Ejecutable {
                                        11 - Taller.txt
                                         """);
                     
-                    opcion = Integer.parseInt(input.nextLine());
+                    opcion = input.nextInt();
                     
                     switch (opcion){
                         case 1 -> {
@@ -567,7 +567,7 @@ public class Ejecutable {
                                         6 - Archivo Taller.txt
                                         """);
                     
-                    opcion = Integer.parseInt(input.nextLine());
+                    opcion = input.nextInt();
                     
                     switch(opcion){
                         

@@ -21,7 +21,7 @@ public class Vendedor extends Empleado {
         this.formacion = formacion;
     }
     
-    public Vendedor(String area, String formacion, Agencia agencia, String nombre, String apellido, int dni, int edad) {
+    public Vendedor(String area, String formacion, String nombre, String apellido, int dni, int edad, Agencia agencia) {
         super(nombre, apellido, dni, edad);
         this.area = area;
         this.formacion = formacion;

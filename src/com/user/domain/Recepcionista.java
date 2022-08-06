@@ -5,8 +5,7 @@ public class Recepcionista extends Empleado {
     private String formacion; //Estudios, capacitacion
     private Agencia agencia;
 
-    public Recepcionista() {
-    }
+    public Recepcionista() {}
 
     public Recepcionista(String formacion, Agencia agencia) {
         this.formacion = formacion;

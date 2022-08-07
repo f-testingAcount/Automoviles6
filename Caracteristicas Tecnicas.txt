@@ -1,2 +1,3 @@
 Modelo: Testarossa | TipoMotor: Naftero central | Cilindros: 12 boxer | Cilindrada: 4997 | HP: 390 | Caja: Manual de 5 velocidades | Equipamiento: Full | Carroceria: Berlinetta coupe | id: #123 -
 Modelo: LM002 | TipoMotor: Naftero delantero | Cilindros: V12 | Cilindrada: 5000 | HP: 450 | Caja: Manual de 5 velocidades y reductora | Equipamiento: Full | Carroceria: Camioneta Sport | id: #124 -
+Modelo: Lancia | TipoMotor: Naftero delantero | Cilindros: 4 | Cilindrada: 2200 | HP: 450 | Caja: Manual de 5 velocidades | Equipamiento: Full | Carroceria: Auto 4 puertas hatchback | id: #145 -

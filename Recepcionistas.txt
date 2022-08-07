@@ -1,1 +1,2 @@
 Recepcionista | Formacion: RRPP | Nombre: Maria Laura | Apellido: Gianpaolo | DNI: 89876 | Edad: 22 - 
+Recepcionista | Formacion: Secundario y universitario en curso | Nombre: Romina | Apellido: Marchessi | DNI: 43235322 | Edad: 21 - 

@@ -2,6 +2,4 @@ Gerente | Area: Ventas | Estudios: Lic adm emp | Nombre: Pietro | Apellido: Giul
 Gerente | Area: Taller | Estudios: Tecnico mecanico | Nombre: Juan | Apellido: Perez | DNI: 12541 | Edad: 26 - 
 Gerente | Area: Ventas | Estudios: Marketing | Nombre: Logan | Apellido: Schuartz | DNI: 23564 | Edad: 26 - 
 Gerente | Area: Ventas | Estudios: Lic | Nombre: Mario | Apellido: Benedetti | DNI: 25632 | Edad: 42 - 
-Gerente | Area: dsafadsfa | Estudios: dasfafa | Nombre: mdmfm | Apellido: dfafee | DNI: 456 | Edad: 34 - 
-Gerente | Area: hgj | Estudios: ouiy | Nombre: ghkhkk | Apellido: hgkhh | DNI: 788 | Edad: 65 - 
-Gerente | Area: fdafadfa | Estudios: dfasdfas | Nombre: dafaaf | Apellido: dfafa | DNI: 454 | Edad: 32 - 
+Gerente | Area: Ventas | Estudios: Licenciado en comercio | Nombre: John | Apellido: Dow | DNI: 34235432 | Edad: 32 - 

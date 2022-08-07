@@ -1,1 +1,2 @@
 Vendedor | Area: Vehiculos comerciales | Formacion: Lic | Nombre: Juan | Apellido: Perez | DNI: 5423 | Edad: 26 - 
+Vendedor | Area: Repuestos | Formacion: Secundario y terciario en curso | Nombre: Marcos | Apellido: Pecce | DNI: 32332123 | Edad: 22 - 

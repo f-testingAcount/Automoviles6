@@ -1,1 +1,2 @@
 Mecanico | Especialidad: Motos | Formacion: Tecnico mecanico | Nombre: Franco | Apellido: Pirelli | DNI: 3435435 | Edad: 34 - 
+Mecanico | Especialidad: Autos | Formacion: Tecnico mecanico | Nombre: Diego | Apellido: Palermo | DNI: 32345432 | Edad: 32 - 

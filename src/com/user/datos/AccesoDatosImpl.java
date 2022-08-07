@@ -823,7 +823,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
                     String linea = search.readLine();
                     boolean encontrado = false;
                     while (linea != null) {
-                        linea = linea.substring(8);
+                        linea = linea.substring(18);
                         String nombreAgencia = linea.substring(0, linea.indexOf(" | "));
                         String ciudad = linea.substring(linea.indexOf("Ciudad:") + 8, linea.indexOf(" | Marca:"));
                         String marcaComercializada = linea.substring(linea.indexOf("Marca:") + 7, linea.indexOf(" -"));
@@ -994,7 +994,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
                             && mecanico.getNombre().equalsIgnoreCase(datos.getNombre()) 
                             && mecanico.getApellido().equalsIgnoreCase(datos.getApellido())) {
                             object = "El mecanico " + datos.getNombre() + " " + datos.getApellido() + " que se encuentra en el indice "
-                                    + indice + " se especializa en " + datos.getEspecialidad() + "y esta formado como " + datos.getFormacion();
+                                    + indice + " se especializa en " + datos.getEspecialidad() + " y esta formado como " + datos.getFormacion();
                             encontrado = true;
                             break;
                         }
@@ -1107,11 +1107,11 @@ public class AccesoDatosImpl implements IAccesoDatos {
             String linea = leer.readLine();
             indice = 1;
             while (linea != null) {
-                linea = linea.substring(7);
-                String nombreMarca = linea.substring(0, linea.indexOf(" | "));
-                String tipoVehiculo = linea.substring(linea.indexOf("Tipo de Vehiculo:") + 18, linea.indexOf(" | Denominacion"));
-                String denominacion = linea.substring(linea.indexOf("Denominacion:") + 14, linea.indexOf(" | Cantidad:"));
-                String cantidad = linea.substring(linea.indexOf("Cantidad:") + 10, linea.indexOf(" -"));
+                linea = linea.substring(31);
+                        String denominacion = linea.substring(0, linea.indexOf(" | "));
+//                        String denominacion = linea.substring(linea.indexOf("Denominacion:") + 14, linea.indexOf(" | Tipo de Vehiculo:"));
+//                        String tipoVehiculo = linea.substring(linea.indexOf("Tipo de Vehiculo:") + 18, linea.indexOf(" | Cantidad:"));
+//                        String cantidad = linea.substring(linea.indexOf("Cantidad:") + 10, linea.indexOf(" -"));
                 Modelo datos = new Modelo(denominacion);
                 if (modelo.getDenominacion() != null && modelo.getDenominacion().equalsIgnoreCase(datos.getDenominacion())) {
                     encontrado = true;
@@ -1142,10 +1142,10 @@ public class AccesoDatosImpl implements IAccesoDatos {
             while (linea != null) {
                 linea = linea.substring(7);
                         String nombreMarca = linea.substring(0, linea.indexOf(" | "));
-                        String tipoVehiculo = linea.substring(linea.indexOf("Tipo de Vehiculo:") + 18, linea.indexOf(" | Denominacion"));
-                        String denominacion = linea.substring(linea.indexOf("Denominacion:") + 14, linea.indexOf(" | Cantidad:"));
+                        String denominacion = linea.substring(linea.indexOf("Denominacion:") + 14, linea.indexOf(" | Tipo de Vehiculo:"));
+                        String tipoVehiculo = linea.substring(linea.indexOf("Tipo de Vehiculo:") + 18, linea.indexOf(" | Cantidad:"));
                         String cantidad = linea.substring(linea.indexOf("Cantidad:") + 10, linea.indexOf(" -"));
-                        Modelo datos = new Modelo(nombreMarca, tipoVehiculo, denominacion, Integer.valueOf(cantidad));
+                        Modelo datos = new Modelo(nombreMarca, denominacion, tipoVehiculo, Integer.valueOf(cantidad));
                 if (denominacionModelo != null && denominacionModelo.equalsIgnoreCase(datos.getDenominacion())
                         && datos.getCantidad() > 0) {
                     stock = datos.getCantidad();

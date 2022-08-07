@@ -7,3 +7,4 @@ Marca | Nombre: BMW | Origen: Alemania | Logo: Helice -
 Marca | Nombre: Lotus | Origen: Inglaterra | Logo: Emulacion de flor -
 Marca | Nombre: Rolls Royce | Origen: Inlgaterra | Logo: RR -
 Marca | Nombre: Chevrolet | Origen: EEUU | Logo: Monio -
+Marca | Nombre: Lancia | Origen: Italia | Logo: Escudo -

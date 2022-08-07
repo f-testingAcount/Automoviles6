@@ -121,7 +121,7 @@ public class Ejecutable {
                             var tipoVehiculo = inputString.nextLine();
                             modelo.setTipoVehiculo(tipoVehiculo);
                             System.out.println("Ingrese la cantidad de unidades: ");
-                            var cantidad = Integer.parseInt(input.nextLine());
+                            var cantidad = input.nextInt();
                             modelo.setCantidad(cantidad);
                             accion.agregar(nombreArchivo, modelo);
                         }
@@ -137,10 +137,10 @@ public class Ejecutable {
                             var cilindros = inputString.nextLine();
                             caracteristica.setCilindros(cilindros);
                             System.out.println("Ingrese la cilindrada: ");
-                            var cilindrada = Integer.parseInt(input.nextLine());
+                            var cilindrada = input.nextInt();
                             caracteristica.setCilindrada(cilindrada);
                             System.out.println("Ingrese la potencia del motor en HP: ");
-                            var HP = Integer.parseInt(input.nextLine());
+                            var HP = input.nextInt();
                             caracteristica.setHP(HP);
                             System.out.println("Ingrese las caracteristicas de la caja (Manual o automatica y la cantidad de velocidades): ");
                             var caja = inputString.nextLine();
@@ -551,7 +551,7 @@ public class Ejecutable {
                     System.out.println("Ingrese el nombre del modelo del cual se necesita stock: ");
                     var denominacionModelo = inputString.nextLine();
                     System.out.println("Ingrese la cantidad de unidades solicitadas a incorporar en stock: ");
-                    var unidadesRecibidas = Integer.parseInt(input.nextLine());
+                    var unidadesRecibidas = input.nextInt();
                     accion.enviarRecibirPedidoDeFabricante(ARCHIVO_MODELOS, modelo, denominacionModelo, unidadesRecibidas);
                 }
                 
